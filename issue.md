@@ -46,3 +46,7 @@ first ビュー、メッセージ、オーナーや人、店舗情報、予約�
 3 footer l-ft footer
 4 div l-sp-menu sp_menu
 5 div l-sp-menu-btn sp_menu_btn
+
+## 3-a 画像 firstview の設定は picture タグで
+
+767 以下スマホの時、768 以上パソコンの時、どちらにも合わない時などが設定できる
