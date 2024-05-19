@@ -1,0 +1,149 @@
+@charset "UTF-8";
+/*                共通
+======================================================= */
+/*                reset
+======================================================= */
+*:where(:not(iframe, canvas, img, svg, video):not(svg *)) {
+  all: unset;
+  display: revert;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  line-height: 1.3; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -webkit-tap-highlight-color: transparent; /* 3*/
+}
+
+body {
+  -webkit-text-size-adjust: 100%; /* 勝手に文字が拡大されるのを防ぐ */
+  /* 以下、案件ごとに適宜変更 */
+  color: #fff;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+  background-color: #122444;
+  font-size: 15px;
+  letter-spacing: 0.1em;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+table,
+th,
+td,
+ul,
+li,
+ol,
+dl,
+dt,
+dd,
+form,
+p {
+  margin: 0px;
+  padding: 0px;
+  font-weight: 500;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+  list-style-type: none;
+  line-height: 1.3;
+}
+
+input,
+textArea,
+select,
+button {
+  -moz-appearance: none;
+       appearance: none;
+  -webkit-appearance: none; /* iOS系のスタイルを外す */
+}
+
+button {
+  cursor: pointer;
+}
+
+figure {
+  margin: 0px;
+}
+
+img,
+iframe {
+  width: 100%;
+  height: auto;
+  vertical-align: top; /* 意図しない余白の削除 */
+}
+
+table {
+  border-collapse: collapse;
+}
+
+a {
+  text-decoration: none;
+  /* 以下、案件ごとに適宜変更 */
+  letter-spacing: 0.1em;
+  color: #fff;
+  cursor: pointer;
+}
+
+/*                leyout
+======================================================= */
+.c-width {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+/*                テキスト装飾
+======================================================= */
+.text_right, .alignright {
+  text-align: right;
+}
+
+.text_left, .alignleft {
+  text-align: left;
+}
+
+.text_center, .aligncenter {
+  text-align: center;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.lato {
+  font-family: "Lato", "arial", sans-serif;
+}
+
+.mintyo {
+  font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+}
+
+/*                sp_menu
+======================================================= */
+html.is-fixed {
+  height: 100vh;
+  overflow: hidden;
+}
+
+/*                トップページ用
+======================================================= */
+/*                content
+======================================================= */
+.l-main {
+  padding: 0 0 220px;
+}
+@media only screen and (max-width: 767px) {
+  .l-main {
+    padding: 0 0 96px;
+  }
+}

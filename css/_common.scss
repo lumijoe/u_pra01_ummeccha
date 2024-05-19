@@ -1,0 +1,35 @@
+@use "setting" as *;
+@mixin common{
+/*                reset
+======================================================= */
+@include reset;
+/*                leyout
+======================================================= */
+  .c-width {
+    max-width: 940px;
+    margin: 0 auto;
+  }
+
+/*                テキスト装飾
+======================================================= */
+  .text_right,.alignright{ text-align:right;}
+  .text_left,.alignleft{ text-align:left;}
+  .text_center,.aligncenter{ text-align:center;}
+  .underline{ text-decoration: underline;}
+  .lato{
+    font-family: $fontLato;
+  }
+  .mintyo{
+    font-family: $fontMintyo;
+  }
+
+/*                sp_menu
+======================================================= */
+  html {
+    &.is-fixed {
+      height: 100vh;
+      overflow: hidden;
+    }
+  }
+
+}//@mixin common
