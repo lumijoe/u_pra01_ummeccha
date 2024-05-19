@@ -50,3 +50,21 @@ first ビュー、メッセージ、オーナーや人、店舗情報、予約�
 ## 3-a 画像 firstview の設定は picture タグで
 
 767 以下スマホの時、768 以上パソコンの時、どちらにも合わない時などが設定できる
+
+## 3-b ページ内リンク設定　　 home へ
+
+ジャンプ：ページ内の異なる箇所へ移動
+遷移：異なるページへ移動
+
+## 3-c スタイル設置　
+
+これはうまくいかなかったので next で処理した
+・sass フォルダをルート直下に作成
+・その中に\_common_first_view.scss ファイルを作成
+・root/sass/\_common_first_view.scss を作成しコードを記述
+・sass ファイルに css を記述したら,watch sass をクリックして watching にしてコンパイルする
+next
+・css フォルダの中に\_common_first_view.scss ファイルを作成、コードを書いてコンパイル
+・Generated:
+/Users/lumi/Desktop/u_pra01_ummeccha/css/home_first_view.css.map
+/Users/lumi/Desktop/u_pra01_ummeccha/css/home_first_view.css 出来上がった

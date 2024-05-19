@@ -7,10 +7,20 @@
 ======================================================= */
   .l-wrapper {
     overflow: hidden;
-    padding-top: 80px;
-    @media only screen and (max-width: 767px) {
-      padding-top: 60px;
+    // padding-top: 80px;
+    // @media only screen and (max-width: 767px) {
+    //   padding-top: 60px;
     }
+  .p-hd {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 46px;
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    z-index: 1;
+    position: relative;
   }
   /*                header
 ======================================================= */

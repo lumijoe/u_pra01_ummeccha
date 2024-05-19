@@ -11,8 +11,7 @@
 *,
 *::before,
 *::after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
@@ -146,4 +145,4 @@ html.is-fixed {
   .l-main {
     padding: 0 0 96px;
   }
-}
+}/*# sourceMappingURL=home.css.map */
