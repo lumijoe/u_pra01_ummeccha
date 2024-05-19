@@ -10,8 +10,7 @@ header,main,footer,スマホメニュー,ハンバーガーボタン
 
 ## main の構成：　 5 つ class/id
 
-main -　 hero(または firstview)
-, message, owner-person, shop-info, reserve-info
+first ビュー、メッセージ、オーナーや人、店舗情報、予約情報
 
 1 header l-hd header
 2 main l-main main_area
