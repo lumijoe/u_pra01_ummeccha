@@ -77,3 +77,7 @@ next
 ・Generated:
 /Users/lumi/Desktop/u_pra01_ummeccha/css/home_first_view.css.map
 /Users/lumi/Desktop/u_pra01_ummeccha/css/home_first_view.css 出来上がった
+
+## nav作成
+・li>aでリンクさせる
+・main内のidを利用してnavlistにahrefでジャンプさせる
