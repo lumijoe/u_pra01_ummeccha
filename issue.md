@@ -1,17 +1,19 @@
 https://www.udemy.com/course/tane-coding/learn/lecture/41477656#notes
 39 header\_\_nav 3:56
 
-
+**A:ディレクトリの作成**
 ## ディレクトリを作成するとき
 ・デザインデータのURLを入力するdesignフォルダを作成して
 URL.txtというファイルを作成
 その中にURLを入れておくと開発中効率が良い！
 
+**B:bodyまでのテンプレートの利用**
 ## body>div>
 
 body
 トップページ：class も id も home
 
+**C:レイアウト構成/mainの中身の構成/headerの中身の構成**
 ## 1 大きな構成：　 5 つ class/id
 
 header,main,footer,スマホメニュー,ハンバーガーボタン
@@ -37,6 +39,7 @@ first ビュー、メッセージ、オーナーや人、店舗情報、予約�
 4 div l-sp-menu sp_menu
 5 div l-sp-menu-btn sp_menu_btn
 
+**D:headerの作り込み/スタイル**
 ## 3 header の構成　：2 つ　
 
 ロゴ、ナビゲーション
@@ -64,6 +67,8 @@ first ビュー、メッセージ、オーナーや人、店舗情報、予約�
 
 ジャンプ：ページ内の異なる箇所へ移動
 遷移：異なるページへ移動
+
+
 
 ## 3-c スタイル設置　
 
