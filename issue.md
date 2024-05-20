@@ -1,6 +1,12 @@
 https://www.udemy.com/course/tane-coding/learn/lecture/41477656#notes
 39 header\_\_nav 3:56
 
+
+## ディレクトリを作成するとき
+・デザインデータのURLを入力するdesignフォルダを作成して
+URL.txtというファイルを作成
+その中にURLを入れておくと開発中効率が良い！
+
 ## body>div>
 
 body
