@@ -86,3 +86,5 @@ next
 ## nav作成
 ・li>aでリンクさせる
 ・main内のidを利用してnavlistにahrefでジャンプさせる
+・_setting.scssで作っている$siteColorを利用する
+　_common_first_view.scssファイルの中で_setting.scssの設定を使用する方法は、_common_first_view.scssファイル先頭に、@use "setting" as *;を記述することで利用できるようになる。カラーを変数で利用しているNext.jsのコンポーネントのような使い方
