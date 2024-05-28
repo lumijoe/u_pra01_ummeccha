@@ -32,6 +32,7 @@
         &::before {
           opacity: 1;
           width: 100%;
+          left: 0%;
         }
       }
 
@@ -46,7 +47,8 @@
       // width: 100%;
       width: 0%;
       height: 1px;
-      left: 0;
+      // left: 0;
+      left: 50%;
       bottom: -0.3em;
       content: "";
       background:$siteColor;

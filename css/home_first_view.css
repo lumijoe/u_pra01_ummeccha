@@ -49,6 +49,14 @@
   background: #122444;
   color: #fff;
 }
+@media only screen and (min-width: 768px) {
+  .p-hd__link--reserve-link {
+    transition: all 0.5s;
+  }
+  .p-hd__link--reserve-link:hover {
+    background: #fc4e01;
+  }
+}
 
 /*                header
 ======================================================= *//*# sourceMappingURL=home_first_view.css.map */

@@ -133,6 +133,7 @@ a {
   .u-hover-line:hover .u-hover-line-child::before {
     opacity: 1;
     width: 100%;
+    left: 0%;
   }
   .u-hover-line-child {
     position: relative;
@@ -142,7 +143,7 @@ a {
     display: block;
     width: 0%;
     height: 1px;
-    left: 0;
+    left: 50%;
     bottom: -0.3em;
     content: "";
     background: #122444;
