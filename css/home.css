@@ -130,6 +130,9 @@ a {
 /*                utility
 ======================================================= */
 @media only screen and (min-width: 768px) {
+  .u-hover-line:hover .u-hover-line-child::before {
+    opacity: 1;
+  }
   .u-hover-line-child {
     position: relative;
   }
@@ -139,9 +142,10 @@ a {
     width: 100%;
     height: 1px;
     left: 0;
-    bottom: 0;
+    bottom: -0.3em;
     content: "";
     background: #122444;
+    opacity: 0;
   }
 }
 /*                sp_menu
