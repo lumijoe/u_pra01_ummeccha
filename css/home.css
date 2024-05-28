@@ -101,6 +101,16 @@ a {
   margin: 0 auto;
 }
 
+.c-width2 {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.c-width3 {
+  width: 100vw;
+  margin: 0 auto;
+}
+
 /*                テキスト装飾
 ======================================================= */
 .text_right, .alignright {
