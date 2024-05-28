@@ -31,6 +31,7 @@
       .u-hover-line-child {
         &::before {
           opacity: 1;
+          width: 100%;
         }
       }
 
@@ -42,7 +43,8 @@
     &::before {
       position: absolute;
       display: block;
-      width: 100%;
+      // width: 100%;
+      width: 0%;
       height: 1px;
       left: 0;
       bottom: -0.3em;
