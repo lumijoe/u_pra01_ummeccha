@@ -146,6 +146,7 @@ a {
     content: "";
     background: #122444;
     opacity: 0;
+    transition: all 0.5s;
   }
 }
 /*                sp_menu
