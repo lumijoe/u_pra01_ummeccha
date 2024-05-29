@@ -32,6 +32,12 @@
 .c-grid-images {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px 20px;
+}
+.c-gird-images__item {
+  &--grid-large {
+    grid-column: span 2;
+  }
 }
 
 
