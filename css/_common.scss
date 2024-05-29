@@ -29,6 +29,10 @@
 .c-section-text {
   line-height: 2.6;
 }
+.c-grid-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
 
 
 /*                テキスト装飾
