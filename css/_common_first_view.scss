@@ -7,10 +7,20 @@
 ======================================================= */
   .l-wrapper {
     overflow: hidden;
+    padding-top: 80px;
+
     // padding-top: 80px;
     // @media only screen and (max-width: 767px) {
     //   padding-top: 60px;
     }
+
+  .l-hd {
+    position: fixed;
+    z-index:99;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
   .p-hd {
     display: flex;
     align-items: center;
@@ -43,7 +53,7 @@
     font-weight:bold;
     letter-spacing: 0.1em;
 
-    // .p-hd__link--reserve
+    // .p-hd__link--reserve-link
     &--reserve-link {
       margin-left: 2em;
       min-width: 150px;
