@@ -159,3 +159,11 @@ scss設計
   margin: 0 auto;
 }
 
+## 行間と文字間
+行間line-height
+XDの行サイズ60でテキストサイズが40pxであれば
+60÷40で1.5なので、line-height1.5となる
+
+文字間letter-spacing
+XDの文字間AVが4pxでテキストサイズが40pxであれば
+4÷40で0.1なので、letter-spacing0.1emとなる
