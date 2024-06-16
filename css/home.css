@@ -21,10 +21,11 @@ html {
 }
 
 body {
-  -webkit-text-size-adjust: 100%; /* 勝手に文字が拡大されるのを防ぐ */
+  -webkit-text-size-adjust: 100%; /* 勝手に文字が拡大されるのを防ぐ http://127.0.0.1:3000/images/home/kv_image_sp.jpg.webp*/
   /* 以下、案件ごとに適宜変更 */
   color: #fff;
-  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ",
+    sans-serif;
   background-color: #122444;
   font-size: 15px;
   letter-spacing: 0.1em;
@@ -63,7 +64,7 @@ textArea,
 select,
 button {
   -moz-appearance: none;
-       appearance: none;
+  appearance: none;
   -webkit-appearance: none; /* iOS系のスタイルを外す */
 }
 
@@ -133,15 +134,18 @@ a {
 
 /*                テキスト装飾
 ======================================================= */
-.text_right, .alignright {
+.text_right,
+.alignright {
   text-align: right;
 }
 
-.text_left, .alignleft {
+.text_left,
+.alignleft {
   text-align: left;
 }
 
-.text_center, .aligncenter {
+.text_center,
+.aligncenter {
   text-align: center;
 }
 
@@ -154,7 +158,8 @@ a {
 }
 
 .mintyo {
-  font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+  font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3",
+    "Hiragino Mincho Pro", serif;
 }
 
 /*                utility
@@ -211,4 +216,20 @@ html.is-fixed {
 
 .p-message-text {
   margin-top: 38px;
-}/*# sourceMappingURL=home.css.map */
+}
+.p-owner-introduction {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0 40px;
+}
+.p-owner-introduction__text {
+  margin-top: 52px;
+}
+.p-owner-introduction__img {
+  border-radius: 50%;
+  overflow: hidden;
+  max-width: 300px;
+  margin: auto;
+}
+/*# sourceMappingURL=home.css.map */
