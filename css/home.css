@@ -128,8 +128,18 @@ a {
   grid-gap: 40px 20px;
 }
 
-.c-gird-images__item--grid-large {
-  grid-column: span 2;
+.c-gird-images__item {
+  &--grid-large {
+    grid-column: span 2;
+  }
+}
+
+.c-info-table {
+  margin-top: 30px;
+  &__dl {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 /*                テキスト装飾
